@@ -20,7 +20,8 @@ public class Main {
 
 
         System.out.println("hello");
-        
+        System.out.println("hello bye bye");
+
         try {
             ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("/Users/marcus/Documents/bitlab_se1/bitlab08/src/bitlab/askar/module2/lesson5/output.txt"));
             outputStream.writeObject(users);
